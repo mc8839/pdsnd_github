@@ -1,15 +1,27 @@
 ### Date created
-Include the date you created this project and README file.
+5/14/2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data Pull
 
 ### Description
-Describe what your project is about and what it does
+Asks user to specify a city, month, and day to analyze.
+
+  Returns:
+      (str) city - name of the city to analyze
+      (str) month - name of the month to filter by, or "all" to apply no month filter
+      (str) day - name of the day of week to filter by, or "all" to apply no day filter
+      Statics returned based on the city, station, day, or hour.
+      An example of the data is also presented to the user
 
 ### Files used
-Include the files used
+CSV files are used for 3 cities
+  Chicago.csv
+  New York City.csv
+  Washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+  stackoverflow.com
+  geeksforgeeeks.com
+  pythonexamples.org
+  udacity.com
