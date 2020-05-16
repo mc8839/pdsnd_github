@@ -282,10 +282,10 @@ def user_stats(df, city):
     print('-'*40)
 
 
-def see_more(df, view_display):
-    """Displays rows of data with user input."""
+def see_more_lines(df, view_display):
+    """Displays rows of data with user input of yes."""
 
-    '''This function returns rows from df based on user input
+    '''This function returns 5 rows from df based on user input
 
     Args:
         df: dataframe of bikeshare data
@@ -326,7 +326,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        see_more(df, view_display)
+        see_more_lines(df, view_display)
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
