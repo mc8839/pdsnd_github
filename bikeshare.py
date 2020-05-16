@@ -283,9 +283,9 @@ def user_stats(df, city):
 
 
 def see_more_lines(df, view_display):
-    """Displays rows of data with user input."""
+    """Displays rows of data with user input of yes."""
 
-    '''This function returns rows from df based on user input
+    '''This function returns 5 rows from df based on user input
 
     Args:
         df: dataframe of bikeshare data
